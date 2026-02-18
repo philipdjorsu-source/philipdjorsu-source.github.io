@@ -1,0 +1,45 @@
+body{
+background: linear-gradient(rgb(161, 9, 4), rgb(255, 204, 0), rgb(85, 246, 85));}
+.container {
+display: flex;
+flex-direction: column;
+}
+
+.row {
+display: flex;
+justify-content: space-between;
+}
+
+.row div {
+width: 48%;
+}
+
+img {
+width: 95%;
+display: block;
+}
+
+.top-image {
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+.bottom-image {
+    width: 70%;
+
+}
+.center-image{
+    width: 55%;
+    
+    margin-left: 180px;
+}
+p {
+text-align: center;
+}
+
+h1{
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+color: black;
+text-underline-offset: none;
+}
